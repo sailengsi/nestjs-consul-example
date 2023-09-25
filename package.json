@@ -6,6 +6,9 @@
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
+    "dev:article": "nest start service-article --debug --watch",
+    "dev:tag": "nest start service-tag --debug --watch",
+    "dev:category": "nest start service-category --debug --watch",
     "build": "nest build",
     "format": "prettier --write \"apps/**/*.ts\" \"libs/**/*.ts\"",
     "start": "nest start",
